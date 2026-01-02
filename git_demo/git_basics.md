@@ -46,7 +46,7 @@ GIT PUSH (upload local repo content to remote repo)
 
 GIT INIT (used to create a new repo)
 
-# git init (to track the file )
+# git init   (creates a new empty Git repository in the current folder)
 # git remote add origin < add file or folder in remore repo link>
 # git branch ( cheks branch )
 # git remote -v ( verifes remote)
@@ -60,3 +60,33 @@ BRANCH COMMANDS
 # git checkout <branch_name> ( to navigate)
 # git checkout -b < branch_name> ( to create new branch)
 # git git branch -d <branch_name > (to delete branch)
+
+MERGING CODE 
+1. Method 1:
+# git diff <branch_name> (to compare commits, branches, files & more)
+# git merge <branch_name> (to merge 2 branches)
+2. Method 2:
+# pull request 
+
+PULL
+# git pull origin main ( )
+
+MERGE CONFLICTS 
+# An event that takes place when Git unable to automatically resolve difference code between two commits.
+
+UNDOING CHANGES
+1. Case 1: 
+   STAGES CHANGES
+      # git reset < -- file name -->
+      # git reset 
+2. Case 2: 
+   COMMITED CHANGES(FOR ONE COMMIT)
+      # git reset HEAD~1
+3. Case 3: 
+   COMMITED CHANGES ( for many commits)
+      # git reset <commit hash>
+      # git reset --hard <commit hash>
+
+FORK 
+   # Fork is a new repository that share code and visibility settings with orginal "upstream" repository
+   # Fork is rough copy 
