@@ -53,3 +53,10 @@ GIT INIT (used to create a new repo)
 # git branch -M main    ( )
 # git push origin main /or 
 ## git push -u origin main ( to work countiniously in same project and next time it tells the system git push instead of origin main)
+
+BRANCH COMMANDS
+# git branch (to check branch)
+# git branch -M main ( to rename branch)
+# git checkout <branch_name> ( to navigate)
+# git checkout -b < branch_name> ( to create new branch)
+# git git branch -d <branch_name > (to delete branch)
