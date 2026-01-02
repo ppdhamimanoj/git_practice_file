@@ -28,3 +28,16 @@ GIT CLONE & STATUS
 2. Status(Check status)
     git status
 
+    a) untracked -> new file that git doesn't yet track
+    b) modified -> changed
+    c) staged -> file is ready to be committed 
+    d) unmodified -> unchanged 
+
+GIT ADD & TRACK
+
+1. Add ( adds new or changed files in your working directory to the git staging area)
+    git add <file_name>
+or  git add . (to add multiple files or record)
+2. commit (it is the record of change)
+    git commit -m "message"
+
